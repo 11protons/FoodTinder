@@ -10,9 +10,16 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var tasteLabel: UILabel!
+    @IBOutlet weak var secondLabel: UILabel!
+    @IBOutlet weak var buttonLabel: UILabel!
+    @IBOutlet weak var goButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
